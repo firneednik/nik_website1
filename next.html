@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Selamat Hari Perempuan Sedunia</title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('Background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "button button"
+                "bottom-left bottom-right"
+                "bottom-text bottom-text";
+            gap: 20px;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .box {
+            width: 100%;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box-top-left {
+            grid-area: top-left;
+        }
+
+        .box-bottom-right {
+            grid-area: bottom-right;
+        }
+
+        .text {
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .text-top-right {
+            grid-area: top-right;
+        }
+
+        .text-bottom-left {
+            grid-area: bottom-left;
+        }
+
+        .text-bottom {
+            grid-area: bottom-text;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .button {
+            grid-area: button;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #000000;
+            margin: auto;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: #ff6b6b;
+            transform: translateY(-2px);
+        }
+
+        audio {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+    </style> 
+</head> 
+<body bgcolor="pink"> 
+    <audio autoplay loop>
+        <source src="sayang.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container"> 
+        <div class="box box-top-left"> 
+            <img src="hk/hk2.jpg" alt="Image 1"> 
+        </div> 
+        <div class="text text-top-right">
+            Haii My Princesss NIK ZAYYAAN HANA, I hope you are always happy and surrounded by love. You are the light of my life, and every moment with you is a beautiful blessing. No matter where you are, always remember that my heart belongs to you.Harap awak happy dengan website yang saya buat nii hihi!!!! 💖
+        </div> 
+        <a href="mylove.html" class="button">tekann sini lepas habis baca tau</a>
+        <div class="text text-bottom-left">
+            Hey love, Im really sorry. I know I hurt you, and that was never my intention. I regret not reacting the way I should have when you sent me your photos. The truth is, I always get excited to see you, but I just didnt show it properly. Im so sorry, baby 🤍
+
+            You are always so beautiful. I love you more than anything. I never want to be the reason for your sadness. Please forgive me? I promise Ill do better for you 🤍
+
+           
+        </div> 
+        <div class="box box-bottom-right"> 
+            <img src="hk/hk3.jpg" alt="Image 2"> 
+        </div> 
+        
+        <div class="text text-bottom">
+            I LOVE YOU NIK ZAYYAAN HANA HIHI!!🤍🤍🤍
+        </div> 
+    </div> 
+</body>
+</html>
